@@ -1,13 +1,90 @@
-body {
+* {
+  font-family: Quicksand, arial;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background: #6190e8;
+  background: -webkit-gradient(linear, left top, right top, from(#a7bfe8), to(#6190e8));
+  background: linear-gradient(to right, #a7bfe8, #6190e8);
 }
+
+li {
+  list-style: none;
+}
+
+.App {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 600px;
+  margin: 100px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.App p {
+  padding: 2em;
+}
+
+.question-wrapper {
+  margin: 2em 0em 1em 0em;
+}
+
+.question-wrapper #btnQuestion {
+  padding: 1em;
+  width: 10em;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  background-color: mediumpurple;
+  cursor: pointer;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.question-wrapper li {
+  font-weight: bolder;
+}
+
+.try-again {
+  margin-bottom: 2em;
+}
+
+.try-again p {
+  margin: 0 auto;
+  font-size: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.try-again span {
+  font-size: 18px;
+}
+
+.try-again button {
+  margin-left: 2em;
+  width: 7em;
+  padding: 1em;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: mediumturquoise;
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.css.map */
